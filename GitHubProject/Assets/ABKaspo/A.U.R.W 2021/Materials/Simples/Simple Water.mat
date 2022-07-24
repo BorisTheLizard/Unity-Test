@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Simple Water
+  m_Shader: {fileID: 4800000, guid: 4d6474af9a37db44d8224a4e915b3232, type: 3}
+  m_ShaderKeywords: BOOLEAN_2D5E488208064DEDBE97E09FA59744E9_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _mainNormal:
+        m_Texture: {fileID: 2800000, guid: c69f78fc22417b546a1bda5001c9402a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _secondNormal:
+        m_Texture: {fileID: 2800000, guid: 1d9fbaa7f39752449b6dd7c95e1be95e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - BOOLEAN_2D5E488208064DEDBE97E09FA59744E9: 1
+    - _amplitude: 25.17
+    - _depth: 51.9
+    - _depthStrength: 2
+    - _normalSpeed: 1
+    - _normalStrength: 1000
+    - _normalTiling: 101.57
+    - _smoothness: 10.99
+    - _waves: 1000
+    - _wavesSpeed: 1000
+    m_Colors:
+    - _deepWaterColor: {r: 0, g: 0.5254902, b: 1, a: 1}
+    - _mainNormalDirection: {r: 1, g: 0, b: 0, a: 0}
+    - _secondNormalDirection: {r: -0.4, g: 0, b: 0, a: 0}
+    - _shallowWaterColor: {r: 0, g: 0.45236123, b: 0.7058824, a: 1}
+  m_BuildTextureStacks: []
