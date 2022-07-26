@@ -31,17 +31,17 @@ Material:
     m_Floats:
     - BOOLEAN_2D5E488208064DEDBE97E09FA59744E9: 1
     - _amplitude: 25.17
-    - _depth: 51.9
-    - _depthStrength: 2
+    - _depth: 1000
+    - _depthStrength: 0.15
     - _normalSpeed: 1
     - _normalStrength: 1000
     - _normalTiling: 101.57
-    - _smoothness: 10.99
-    - _waves: 1000
-    - _wavesSpeed: 1000
+    - _smoothness: 100
+    - _waves: 600
+    - _wavesSpeed: 600
     m_Colors:
-    - _deepWaterColor: {r: 0, g: 0.5254902, b: 1, a: 1}
+    - _deepWaterColor: {r: 0, g: 0.1970685, b: 0.23584908, a: 1}
     - _mainNormalDirection: {r: 1, g: 0, b: 0, a: 0}
-    - _secondNormalDirection: {r: -0.4, g: 0, b: 0, a: 0}
-    - _shallowWaterColor: {r: 0, g: 0.45236123, b: 0.7058824, a: 1}
+    - _secondNormalDirection: {r: 1, g: 0, b: 0, a: 0}
+    - _shallowWaterColor: {r: 0.3537736, g: 0.7666404, b: 1, a: 1}
   m_BuildTextureStacks: []
